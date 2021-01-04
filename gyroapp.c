@@ -12,6 +12,7 @@
 
 #define MPU6050_I2C_ADDR 0x68
 
+
 #define PWR_MGMT_1 0x6B
 #define GYRO_CONFIG 0x1B
 #define REG_GYRO_XOUT_H 0x43
