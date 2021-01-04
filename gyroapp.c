@@ -20,6 +20,11 @@
 #define REG_GYRO_ZOUT_H 0x47
 #define REG_GYRO_ZOUT_L 0x48
 
+void reverse (int number)
+{
+	printf("Reverse %d\n", number);
+}
+
 int file = -1;
 
 int i2c_write (uint8_t reg_address, uint8_t value) {
