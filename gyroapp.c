@@ -22,7 +22,8 @@
 
 void reverse (int number)
 {
-	printf("Reverse %d\n", number);
+	if (number > 0)
+		printf("Reverse %d\n", number);
 }
 
 int file = -1;
