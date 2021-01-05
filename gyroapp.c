@@ -10,7 +10,7 @@
 #include <errno.h>
 #include <string.h>
 
-#define MPU6050_I2C_ADDR 0x68
+#define MPU6050_I2C_ADDR 0x67
 
 
 #define PWR_MGMT_1 0x6B
